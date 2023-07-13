@@ -37,7 +37,7 @@ env:
   ECS_CLUSTER: tarea1               # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: task_definition.json
 
-                                               # containerDefinitions section of your task definition
+     CONTAINER_NAME: tarea1                                           # containerDefinitions section of your task definition
 
 permissions:
   contents: read
